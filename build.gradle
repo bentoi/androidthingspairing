@@ -1,0 +1,41 @@
+// **********************************************************************
+//
+// Copyright (c) 2003-2018 ZeroC, Inc. All rights reserved.
+//
+// This copy of Ice is licensed to you under the terms described in the
+// ICE_LICENSE file included in this distribution.
+//
+// **********************************************************************
+
+buildscript {
+    repositories {
+        jcenter()
+        google()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.2.1'
+    }
+}
+
+apply plugin: 'com.android.application'
+
+repositories {
+    google()
+    jcenter()
+}
+
+android {
+    compileSdkVersion 27
+    dependencies {
+        compileOnly 'com.google.android.things:androidthings:+'
+    }
+    defaultConfig {
+        applicationId "com.zeroc.androidthingspairing"
+        minSdkVersion 27
+        compileOptions {
+            sourceCompatibility JavaVersion.VERSION_1_8
+            targetCompatibility JavaVersion.VERSION_1_8
+        }
+    }
+}
+

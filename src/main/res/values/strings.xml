@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Bluetooth Pairing</string>
+
+
+    <string name="scanning">Scanning&#8230;</string>
+    <string name="choose_peer">Choose a peer</string>
+    <string name="none_paired">No devices have been paired</string>
+    <string name="none_found">No devices found</string>
+    <string name="scan">Scan for devices</string>
+    <string name="pair">Pairing with device</string>
+    <string name="unpair">Unpairing with device</string>
+    <string name="pairing_error">Pairing error: </string>
+
+</resources>
